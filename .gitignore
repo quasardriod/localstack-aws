@@ -1,3 +1,6 @@
 .lstackenv
 venv
 provisioned_Concurrency
+awsenv
+scripts/secret.sh
+.vscode

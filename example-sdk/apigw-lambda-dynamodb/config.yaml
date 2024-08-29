@@ -1,0 +1,14 @@
+api_gateway:
+  name: "Test Lambda through API GW"
+  resources:
+  - pathPart: "getlambda"
+    httpMethod: "GET"
+    authorizationType: "NONE"
+    requestParameters:
+      method.request.path.getlambda: true
+  - pathPart: "postlambda"
+    httpMethod: "POST"
+    authorizationType: "NONE"
+    requestParameters:
+      method.request.path.postlambda: true
+
